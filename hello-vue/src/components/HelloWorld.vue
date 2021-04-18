@@ -20,7 +20,7 @@ export default {
   },
   //mounted is called when vue comes onscreen
   mounted(){
-    //api call returns a promise
+    //api call returns a  gpromise 
     this.$hello_api.getHelloMessage().then( resp =>{
       this.helloMessage = resp.message
     })
